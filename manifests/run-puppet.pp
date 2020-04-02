@@ -12,5 +12,5 @@ cron { 'run-puppet':
 
 file { '/tmp/burp.txt':
   ensure => file,
-  contents => "Burp\n",
+  content => "Burp\n",
 }
